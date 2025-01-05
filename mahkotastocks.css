@@ -1,0 +1,120 @@
+
+body {
+    background-color: black;
+    color: white; /* Optional: Set text color for better readability */
+    margin: 0; /* Optional: Remove default margins */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+/* NAV BAR */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav_container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .nav_container .logo_wrapper {
+    display: flex;
+    text-align: center;
+}
+
+.nav_menu {
+    margin: 0em 6em 0em 6em;
+}
+
+.nav button{
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1.5625rem 2.25rem 1.5625rem 2.25rem;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: none;
+    transition: none;
+}
+
+nav button:active {
+    box-shadow: none;     
+    transform: none; 
+}
+
+.actions_wrapper .sign_in {
+    background-color: #3C3C3C;
+    color: #f2f2f2;
+    margin-right: 0.5em;
+}
+
+.actions_wrapper .get_started {
+    background-color: #ffc44d;
+    color: #101211;
+} 
+
+/* First Header */
+
+.header_layout{
+    margin: 8em 8em 8em 8em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome_msg{
+    font-weight: 525;
+    font-size: 8rem;
+    background-image: linear-gradient(28deg, #ffc44d, white);
+    -webkit-background-clip: text; /* Chrome and Safari */
+    background-clip: text;
+    color: transparent; /* Make the text color transparent to show the gradient */ 
+    margin-bottom: 0.5em;
+}
+
+.welcome_desc {
+    font-size: 2.5rem
+}
+
+.header_layout img{
+    width: 17%;
+    height: auto;
+}
+
+.header_layout .header_content{
+    margin-right: 7em;
+}
+
+.header_content button{
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1.5625rem 2.25rem 1.5625rem 2.25rem;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: none;
+    transition: none;
+}
+
+.header_content .get_started {
+    background-color: #ffc44d;
+    color: #101211;
+    margin-right: 0.5em;
+}
+
+.header_content .learn_more {
+    background-color: #3C3C3C;
+    color: #f2f2f2;
+} 
